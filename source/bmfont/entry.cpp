@@ -282,7 +282,7 @@ void bmfont::Init()
 
 int bmfont::Run(string configFile, string outputFile)
 {
-  int result;
+  int result = 0;
 
   {
     CFontGen *fontGen = new CFontGen();
